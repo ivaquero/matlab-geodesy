@@ -1,4 +1,4 @@
-%% Error Propagation: ECEF ==> AER
+% Error Propagation: ECEF ==> AER
 %
 % Syntax:
 %   E_aer = err_ecef2aer(x, y, z, P_ecef, lat0, lon0, alt0, options)

@@ -1,4 +1,4 @@
-%% State error covariance transform: ENU ==> ECEF
+% State error covariance transform: ENU ==> ECEF
 % Syntax:
 %   P_ecef = cov_enu2ecef(P_enu, lat0, lon0, options)
 %

@@ -1,7 +1,7 @@
-%% CLEAN WORKSPACE
+% CLEAN WORKSPACE
 clear; close all; clc;
 
-%% LOAD TOOLBOX
+% LOAD TOOLBOX
 path(path, strcat(pwd, '/..'));
 
 % REFERENCE POINT COORDINATES
@@ -29,7 +29,7 @@ wgs84 = wgs84Ellipsoid('meter');
 [az01, el01, rs01] = enu2aer(e0, n0, u0, 'degrees');
 [az02, el02, rs02] = ecef2aer(x0, y0, z0, lat0, lon0, alt0, wgs84, 'degrees');
 
-%% geodesy toolbox
+% geodesy toolbox
 ecef = cgeodetic2ecef(latz, lonz, altz);
 enu = cgeodetic2enu(latz, lonz, altz, lat0, lon0, alt0);
 aer = cgeodetic2aer(latz, lonz, altz, lat0, lon0, alt0);

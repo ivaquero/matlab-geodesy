@@ -1,4 +1,4 @@
-%% Reference ellipsoid
+% Reference ellipsoid
 %
 % Syntax:
 %   ref = refEllipsoid(name, lengthUnit)

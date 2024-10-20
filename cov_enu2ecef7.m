@@ -1,5 +1,5 @@
-%% State error covariance transform: ENU ==> ECEF
-%% 7-dimensional state (position + velocity + mass-drag ratio)
+% State error covariance transform: ENU ==> ECEF
+% 7-dimensional state (position + velocity + mass-drag ratio)
 % Syntax:
 %   varargout = cov_enu2ecef7(P_enu, lat0, lon0, options)
 %

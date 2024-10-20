@@ -1,4 +1,4 @@
-%% State error covariance transformation matrix: ECEF ==> ENU
+% State error covariance transformation matrix: ECEF ==> ENU
 % Syntax:
 %   M_enu2ecef = covm_enu2ecef(lat, lon, options)
 %

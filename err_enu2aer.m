@@ -1,4 +1,4 @@
-%% Error Propagation: ENU ==> AER
+% Error Propagation: ENU ==> AER
 %
 % Syntax:
 %   E_aer = err_enu2aer(xEast, yNorth, zUp, P_enu, options)

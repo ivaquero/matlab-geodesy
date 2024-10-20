@@ -7,7 +7,7 @@
 %   Lat                     Target's geodetic coordinates in rad
 %   options.spheroid        Reference ellipsoid model: 'wgs84' (default) or 'grs80'
 % Output:
-%   RN                       normalized radius in m
+%   RN                       normalized radius in meters
 % Attention:
 %
 
