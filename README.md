@@ -26,7 +26,7 @@ Its main design principles are as follows
 
 ![schema](docs/geodesy.drawio.png)
 
-> Dotted line in the schematic diagram indicates indirect transformation, which may cause cumulative errors;
+> Dotted line in the schematic diagram indicates indirect transformation, which may cause cumulative errors
 
 ## Test Method
 
