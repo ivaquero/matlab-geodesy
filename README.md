@@ -8,13 +8,17 @@
 
 This toolbox is designed based on the MATLAB's `Mapping` toolbox, and reduces the learning cost for users and the testing cost for developers by ensuring high similarity and readability with the official API.
 
-The design principles are as follows
+Its main design principles are as follows
 
-- Function names are highly consistent with those in the Mapping toolbox
-- Transformation function is prefixed with `c` (coordiates)
+- Function name adopt name pattern in the `Mapping` toolbox, while
+  - add prefix `c` to the coordiate transformation function
+  - add prefix `u` to the unit conversion function
+  - add prefix `cov_` to the covariance function
+  - add prefix `err_` to the error function
+  - add prefix `get_` to the calculation function
 - Input includes parameter type verification
 - Output dimension flexibility
-- MATLAB toolbox functions are not used
+- Only use MATLAB builtin functions
 - Reference ellipsoid model is written in object-oriented form to facilitate subsequent expansion
 - Encoding only uses UTF-8
 
@@ -49,7 +53,7 @@ In the toolbox, the meaning of function parameters is as follows
 | xEast, yNorth, zUp | required |    target's  ENU coordinates     |             m, m, m              |
 |   lat, lon, alt    | required |  target's geodetic coordinates   |           deg, deg, m            |
 |  lat0, lon0, alt0  | required | reference's geodetic coordinates |           deg, deg, m            |
-|  az, elev, rslant  | required |  target's spherical coordinates  |    azimuth, elevation, range     |
+|  az, elev, rslant  | required |  target's spherical coordinates  |          azdeg, deg, m           |
 |      spheroid      | optional |    reference ellipsoid model     |   'wgs84' (default) or 'grs80'   |
 |     angleUnit      | optional |        input's angle unit        | 'degrees' (default) or 'radians' |
 |    angleUnitOut    | optional |       output's angle unit        | 'degrees' (default) or 'radians' |
