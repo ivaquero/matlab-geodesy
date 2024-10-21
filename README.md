@@ -4,6 +4,8 @@
 
 - MATLAB > R2019a
 
+> Some machines may not be able to display UTF-8 characters due to backward configuration. Please use an advanced editor to open and view the original file.
+
 ## Design Principle
 
 This toolbox is designed based on the MATLAB's `Mapping` toolbox, and reduces the learning cost for users and the testing cost for developers by ensuring high similarity and readability with the official API.
@@ -24,7 +26,7 @@ Its main design principles are as follows
 
 ![schema](docs/geodesy.drawio.png)
 
-> Some machines may not be able to display UTF-8 characters due to backward configuration. Please use an advanced editor to open and view the original file.
+> Dotted line in the schematic diagram indicates indirect transformation, which may cause cumulative errors;
 
 ## Test Method
 
@@ -36,12 +38,6 @@ Function testing uses a combination of the following two methods
 Specific operations are to open the `test.m` file with MALTAB, click `Editor` -> click `Run`
 
 After testing, the accuracy of the transformation functions in the current toolbox is > 96%
-
-## Attention
-
-- Order of parameter input and output
-- Difference in accuracy;
-- Dotted line in the schematic diagram indicates indirect transformation, which may cause cumulative errors;
 
 ## Function List
 
