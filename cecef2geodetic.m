@@ -1,4 +1,4 @@
-% Coordinate Transformation:ECEF ==> Geodetic
+% Coordinate Transformation: ECEF ==> Geodetic
 %
 % Syntax:
 %   varargout = cecef2geodetic(x, y, z, options)

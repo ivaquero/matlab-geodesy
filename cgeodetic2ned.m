@@ -1,4 +1,4 @@
-% Coordinate Transformation:Geodetic ==> NED
+% Coordinate Transformation: Geodetic ==> NED
 %
 % Syntax:
 %   varargout = cgeodetic2ned(lat, lon, alt, lat0, lon0, alt0, options)

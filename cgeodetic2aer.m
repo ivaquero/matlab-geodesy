@@ -1,4 +1,4 @@
-% Coordinate Transformation:Geodetic ==> AER
+% Coordinate Transformation: Geodetic ==> AER
 %
 % Syntax:
 %   varargout = cgeodetic2aer(lat, lon, alt, lat0, lon0, alt0, options)

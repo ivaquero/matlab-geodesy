@@ -1,4 +1,4 @@
-% Coordinate Transformation:AER ==> NED
+% Coordinate Transformation: AER ==> NED
 %
 % Syntax:
 %   varargout = caer2ned(az, elev, rslant, options)

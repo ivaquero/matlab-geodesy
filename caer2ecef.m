@@ -1,4 +1,4 @@
-% Coordinate Transformation:AER ==> ECEF
+% Coordinate Transformation: AER ==> ECEF
 %
 % Syntax:
 %   varargout = caer2ecef(az, elev, rslant, options)

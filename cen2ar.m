@@ -1,4 +1,4 @@
-% Coordinate Transformation:EN ==> AR
+% Coordinate Transformation: EN ==> AR
 %
 % Syntax:
 %   varargout = cen2ar(xEast, yNorth)

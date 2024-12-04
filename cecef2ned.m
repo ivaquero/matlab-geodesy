@@ -1,4 +1,4 @@
-% Coordinate Transformation:ECEF ==> NED
+% Coordinate Transformation: ECEF ==> NED
 %
 % Syntax:
 %   varargout = cecef2ned(x, y, z, lat0, lon0, alt0, options)

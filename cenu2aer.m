@@ -1,4 +1,4 @@
-% Coordinate Transformation:ENU ==> AER
+% Coordinate Transformation: ENU ==> AER
 %
 % Syntax:
 %   varargout = cenu2aer(xEast, yNorth, zUp, options)

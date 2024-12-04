@@ -1,4 +1,4 @@
-% Coordinate Transformation:ECEF ==> ENU (Translation only)
+% Coordinate Transformation: ECEF ==> ENU (Translation only)
 %
 % Syntax:
 %   varargout = cecef2enuv(u, v, w, lat0, lon0, options)

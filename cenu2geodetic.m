@@ -1,4 +1,4 @@
-% Coordinate Transformation:ENU ==> Geodetic
+% Coordinate Transformation: ENU ==> Geodetic
 %
 % Syntax:
 %   varargout = cenu2geodetic(xEast, yNorth, zUp, lat0, lon0, alt0, options)

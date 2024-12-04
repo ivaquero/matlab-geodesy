@@ -1,4 +1,4 @@
-% Coordinate Transformation:ECEF ==> AER
+% Coordinate Transformation: ECEF ==> AER
 %
 % Syntax:
 %   varargout = cecef2aer(x, y, z, refWGS84)

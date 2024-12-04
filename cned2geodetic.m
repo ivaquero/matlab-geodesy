@@ -1,4 +1,4 @@
-% Coordinate Transformation:NED ==> Geodetic
+% Coordinate Transformation: NED ==> Geodetic
 %
 % Syntax:
 %   varargout = cned2geodetic(xNorth, yEast, zDown, refWGS84)

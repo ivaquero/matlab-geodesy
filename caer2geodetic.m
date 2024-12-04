@@ -1,4 +1,4 @@
-% Coordinate Transformation:AER ==> Geodetic
+% Coordinate Transformation: AER ==> Geodetic
 %
 % Syntax:
 %   varargout = caer2geodetic(az, elev, rslant, options)
